@@ -5,7 +5,7 @@
     /*************************************************************************************\
     ** Crie um programa que adicione 20.000 números aleatórios em um vetor dinâmico.     **
     ** Imprima a quantidade de memoria utilizada:                                        **
-    ** - Antes da inserção;                                                               **
+    ** - Antes da inserção;                                                              **
     ** - Ao final da inserção;                                                           **
     ** - Após liberar a memória.                                                         **
     \*************************************************************************************/
