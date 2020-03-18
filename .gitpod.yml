@@ -1,0 +1,3 @@
+tasks:
+  - init: echo "Gitpod inicializado."
+    command: echo "Comandos úteis, cd ./<aula> e make ex00 (sem .c) "
