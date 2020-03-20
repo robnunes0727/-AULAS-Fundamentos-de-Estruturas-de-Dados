@@ -78,7 +78,7 @@ int bin(int *vetor, int n, int tam)
 {
     // Busca binaria, acha a metade e corta no meio
     int esq = 0;
-    int dir = tam;
+    int dir = tam; // tam = sizeof(vetor) / sizeof(vetor[0])
 
     while (esq <= dir)
     {

@@ -1,10 +1,6 @@
-tasks:
-  - init: echo "Gitpod inicializado."
-    command: echo "Comandos úteis, cd ./<aula> e make ex00 (sem .c) "
-
 github:
   prebuilds:
-    # enable for the master/default branch (defaults to true)
+# enable for the master/default branch (defaults to true)
     master: true
 # enable for all branches in this repo (defaults to false)
     branches: true

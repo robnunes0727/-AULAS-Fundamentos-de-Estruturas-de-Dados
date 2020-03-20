@@ -49,5 +49,11 @@
         "v": "v run",
         "sass": "sass --style expanded",
         "scss": "scss --style expanded"
-    }
+    },
+    "cpp.buildConfigurations": [
+        {
+            "name": "Debug",
+            "directory": "/build"
+        }
+    ]
 }
