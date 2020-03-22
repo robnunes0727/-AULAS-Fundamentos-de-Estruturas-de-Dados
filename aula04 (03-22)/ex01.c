@@ -47,4 +47,5 @@ int main(void)
     printf("%lu\n", sizeof(vetor));
 
     // Sempre vai dar 8 pois sizeof está medindo o tamanho do ponteiro, não do array.
+    // Por isso, não é possível medir um array dinamico em C.
 }
