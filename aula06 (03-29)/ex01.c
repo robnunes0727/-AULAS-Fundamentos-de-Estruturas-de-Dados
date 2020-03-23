@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
     /*************************************************************************************************************************\
-    ** 1. Escreva a função de ordenação de inserção em uma linguagem de programação.					                     **
-    ** 2. Escreva uma função que rearranje um vetor v[0..n-1] de modo que ele fique em ordem estritamente crescente.	     **
-    ** 4. Crie uma função que conte quantas iterações ocorrem ao ordenar um vetor.					                         **
-    ** 5. Pior caso. Descreva e analise uma instância de pior caso para o algoritmo de inserção (mais lento possivel).	     **
+    ** 1. Escreva a função de ordenação de inserção em uma linguagem de programação.                                         **
+    ** 2. Escreva uma função que rearranje um vetor v[0..n-1] de modo que ele fique em ordem estritamente crescente.         **
+    ** 4. Crie uma função que conte quantas iterações ocorrem ao ordenar um vetor.                                           **
+    ** 5. Pior caso. Descreva e analise uma instância de pior caso para o algoritmo de inserção (mais lento possivel).       **
     ** 6. Melhor caso. Descreva e analise uma instância de melhor caso para o algoritmo de inserção (mais rapido possivel).  **
     \*************************************************************************************************************************/
 
