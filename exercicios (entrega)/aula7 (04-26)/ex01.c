@@ -22,7 +22,8 @@ void decSelectionSort();
 
 int main(void)
 {
-    int v[TAMANHO] = {330, 108, 383, 362, 269, 175, 276, 301, 387, 422, 328};
+    //int v[TAMANHO] = {330, 108, 383, 362, 269, 175, 276, 301, 387, 422, 328};
+    int v[TAMANHO] = {10, 9, 8, 7, 6, 5,4, 3,2, 1, 0};
     printarArray(v, TAMANHO);
     selectionSort(v, TAMANHO);
     printarArray(v, TAMANHO);
@@ -32,19 +33,22 @@ int main(void)
 
 void selectionSort(int v[TAMANHO],int n){
 
-    int i,j,aux,posicaoMenor;
+    int i,j,aux,posicaoMenor, qtd = 0;
 
     for (i = 0; i < n-1; i++) 
     {
         posicaoMenor = i;
         
-        for (j = i+1; j < n; j++)
+        for (j = i+1; j < n; j++){
+            qtd++;
             if (v[j] < v[posicaoMenor])
                 posicaoMenor = j;
-        
+        }
         aux = v[i];
         v[i] = v[posicaoMenor];
         v[posicaoMenor] = aux;
+
+        printf("T%d ", qtd);
     }
 }
 
@@ -81,8 +85,9 @@ void decSelectionSort(int v[], int n)
  * 
  * 2. Ele sempre roda no pior caso.
  * 
- * 3. Um array já ordenado. Mas ele ainda faria o mesmo tanto de comparações.
+ * 3. Um array já ordenado. Mas ele sempre faz o mesmo tanto de comparações.
  * 
- * 4. No melhor caso ele não copia nada. Mas ele ainda faria o mesmo tanto de comparações.
+ * 4. No melhor caso ele não muda nada de lugar, mas ainda faria varias comparações. 
+ * No pior caso ele copiaria o array inteiro, e faria o mesmo tanto de comparações, considerando arrays do mesmo tamanho.
  * 
 */
